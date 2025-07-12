@@ -1,7 +1,7 @@
 import React from "react";
 import Article from "./Article";
 
-function Articlelist({ posts }) {
+function ArticleList({ posts }) {
     return (
         <main>
         {posts.map((post) => (
@@ -15,4 +15,4 @@ function Articlelist({ posts }) {
         </main>
     );
     }
-export default Articlelist;
+export default ArticleList;
