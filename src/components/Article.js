@@ -18,6 +18,7 @@ function Article({ title, date = "January 1, 1970", preview, minutes }) {
       <small>
         {renderEmojis()} {minutes} min read
       </small>
+      <small> • {date}</small>
       <p>{preview}</p>
     </article>
   );
